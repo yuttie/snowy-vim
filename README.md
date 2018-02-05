@@ -37,6 +37,10 @@ let g:lightline = {
 ```
 
 
+## TODO
+* [ ] Export the palette through `g:inkstained_palette['red']`
+
+
 ## Contribution
 Currently, the colors for terminals, i.e. `cterm*` values, are not tested well.
 Please create an issue when you find a problem.
