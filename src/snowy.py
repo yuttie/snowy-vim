@@ -1,10 +1,10 @@
 from collections import OrderedDict
 
 
-HEADER = """" Name:     inkstained.vim --- Inkstained theme for Vim
+HEADER = """" Name:     snowy.vim --- Snowy theme for Vim
 " Author:   Yuta Taniguchi <yuta.taniguchi.y.t@gmail.com>
-" URL:      https://github.com/yuttie/inkstained-vim
-" Version:  0.3.0
+" URL:      https://github.com/yuttie/snowy-vim
+" Version:  0.1.0
 " License:  MIT License
 """
 
@@ -22,10 +22,10 @@ except ImportError:
 
 
 # Palette
-base03       = ("#e7e5e2", 254)
-base02       = ("#dfddd7", 188)
-base01       = ("#d3d1cc", 251)
-base00       = ("#bdbbb6", 145)
+base03       = ("#eceef2", 254)
+base02       = ("#e1e3e6", 188)
+base01       = ("#d0d2d6", 251)
+base00       = ("#babcbf", 145)
 base1        = ("#929cad", 247)
 base2        = ("#697383", 243)
 base3        = ("#555f6f",  59)
@@ -55,7 +55,7 @@ color = OrderedDict()
 color['Normal']       = {'fg': base2,            'bg': base03,                                   }
 color['Cursor']       = {'fg': 'NONE',           'bg': base3,                 'deco': 'NONE'     }
 color['CursorIM']     = {'fg': 'NONE',           'bg': base3,                                    }
-color['CursorLine']   = {'fg': 'NONE',           'bg': base02,                'deco': 'bold'     }
+color['CursorLine']   = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
 color['CursorColumn'] = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
 color['Visual']       = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
 color['VisualNOS']    = {'fg': 'fg',                                          'deco': 'underline'}
@@ -162,7 +162,7 @@ execute("""hi clear
 if exists('syntax_on')
   syntax reset
 endif
-let g:colors_name = 'inkstained'
+let g:colors_name = 'snowy'
 
 set background=light
 """)
