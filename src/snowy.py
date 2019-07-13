@@ -37,6 +37,7 @@ cyan01       = ("#cbd7dc", 188)
 cyan1        = ("#447487",  30)
 cyan2        = ("#5e99b1",  66)
 cyan3        = ("#6f9db0", 109)
+blue01       = ("#cfd5de",  24)
 blue1        = ("#56759a",  24)
 blue2        = ('#7593bb',  67)
 blue3        = ('#91a8c9', 110)
@@ -57,7 +58,7 @@ color['Cursor']       = {'fg': 'NONE',           'bg': base3,                 'd
 color['CursorIM']     = {'fg': 'NONE',           'bg': base3,                                    }
 color['CursorLine']   = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
 color['CursorColumn'] = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
-color['Visual']       = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
+color['Visual']       = {'fg': 'NONE',           'bg': blue01,                'deco': 'NONE'     }
 color['VisualNOS']    = {'fg': 'fg',                                          'deco': 'underline'}
 
 color['Folded']       = {'fg': base2,            'bg': base02,                'deco': 'NONE'     }
