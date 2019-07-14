@@ -17,7 +17,7 @@ hi Cursor ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#555f6f gui=NONE
 hi CursorIM ctermfg=NONE ctermbg=59 guifg=NONE guibg=#555f6f
 hi CursorLine ctermfg=NONE ctermbg=188 cterm=NONE guifg=NONE guibg=#e1e3e6 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=188 cterm=NONE guifg=NONE guibg=#e1e3e6 gui=NONE
-hi Visual ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#cfd5de gui=NONE
+hi Visual ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#cad6e7 gui=NONE
 hi VisualNOS cterm=underline guifg=fg gui=underline
 hi Folded ctermfg=243 ctermbg=188 cterm=NONE guifg=#697383 guibg=#e1e3e6 gui=NONE
 hi FoldColumn ctermfg=243 ctermbg=254 cterm=NONE guifg=#697383 guibg=#eceef2 gui=NONE
