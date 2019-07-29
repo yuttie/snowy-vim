@@ -54,8 +54,8 @@ magenta3     = ("#c190ae", 218)
 # Definitions
 color = OrderedDict()
 color['Normal']       = {'fg': base2,            'bg': base03,                                   }
-color['Cursor']       = {'fg': 'NONE',           'bg': base3,                 'deco': 'NONE'     }
-color['CursorIM']     = {'fg': 'NONE',           'bg': base3,                                    }
+color['Cursor']       = {'fg': 'NONE',           'bg': cyan1,                 'deco': 'NONE'     }
+color['CursorIM']     = {'fg': 'NONE',           'bg': cyan1,                                    }
 color['CursorLine']   = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
 color['CursorColumn'] = {'fg': 'NONE',           'bg': base02,                'deco': 'NONE'     }
 color['Visual']       = {'fg': 'NONE',           'bg': blue01,                'deco': 'NONE'     }

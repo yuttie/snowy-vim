@@ -13,8 +13,8 @@ let g:colors_name = 'snowy'
 set background=light
 
 hi Normal ctermfg=243 ctermbg=254 guifg=#697383 guibg=#eceef2
-hi Cursor ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#555f6f gui=NONE
-hi CursorIM ctermfg=NONE ctermbg=59 guifg=NONE guibg=#555f6f
+hi Cursor ctermfg=NONE ctermbg=30 cterm=NONE guifg=NONE guibg=#447487 gui=NONE
+hi CursorIM ctermfg=NONE ctermbg=30 guifg=NONE guibg=#447487
 hi CursorLine ctermfg=NONE ctermbg=188 cterm=NONE guifg=NONE guibg=#e1e3e6 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=188 cterm=NONE guifg=NONE guibg=#e1e3e6 gui=NONE
 hi Visual ctermfg=NONE ctermbg=24 cterm=NONE guifg=NONE guibg=#cad6e7 gui=NONE
